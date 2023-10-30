@@ -1,0 +1,143 @@
+.pai{
+	width: 100%;
+	height: 116vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.filho1{
+	width: 15%;
+	height: 20vh;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.filho1 img{
+	margin: 2vh;
+	width: 40%;
+	height: 14vh;
+}
+.filho2{
+	width: 85%;
+	height: 20vh;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.filho2 form{
+	margin: 4vh 4vh 12vh 0vh;
+	width: 20%;
+	height: 4vh;
+}
+.filho2 input{
+	width: 100%;
+	height: 4vh;
+	color: green;
+	font-size: 16px;
+}
+.filho2 input::placeholder{
+	color: green;
+}
+.filho3{
+	width: 100%;
+	height: 20vh;
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.filho3 img{
+	margin: 1vh;
+	width: 40%;
+	height: 18vh;
+}
+.filho4{
+	width: 70%;
+	height: 60vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.filho4 img{
+	margin: 1vh;
+	height: 50vh;
+	width: 65%;
+}
+.filho4 h1{
+	margin: 1vh;
+	height: 4vh;
+	color: darkblue;
+	font-size: 22px;
+	font-family: arial,helvetica;
+}
+.filho5{
+	width: 30%;
+	height: 60vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.filho5 img{
+	height: 12vh;
+	width: 90%;
+}
+#zifzap{
+	margin: 1vh 0vh 0vh 0vh;
+	height: 20vh;
+	width: 90%;
+}
+.filho6{
+	width: 100%;
+	height: 20vh;
+	background-color: darkgreen;
+}
+@media(max-width: 760px){
+	.filho1{
+		width: 100%;
+		height: 15vh;
+	}
+	.filho1 img{
+		width: 10%;
+		height: 9vh;
+	}
+	.filho2{
+		display: none; 
+	}
+	.filho3{
+		display: none; 
+	}
+	.filho4{
+		width: 100%;
+		height: 64vh;	 
+	}
+	.filho4 img{
+		width: 90%;
+		height: 52vh;
+		margin: 2vh;
+	}
+	.filho4 h1{
+		width: 85%;
+		height: 6vh;
+		font-size: 30px;
+		margin: 0vh 2vh 2vh 2vh;
+	}
+	.filho5{
+		width: 100%;
+		height: 64vh;
+	}
+	.filho5 img{
+		width: 90%;
+		height: 13vh;
+	}
+	#zifzap{
+		width: 90%;
+		height: 20vh;
+	}
+	.filho6{
+		width: 100%; 
+	}
+}
